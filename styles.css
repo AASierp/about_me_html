@@ -1,6 +1,6 @@
 body{
 
-    background-color: rgba(32, 117, 120, .9);
+    background-color: rgba(32, 117, 120, .99);
 }
 
 h1{
@@ -68,5 +68,5 @@ li:hover{
 }
 
 .familyphoto{
-    margin-left:46%
+    margin-left:42%
 }
