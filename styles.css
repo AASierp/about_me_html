@@ -1,15 +1,72 @@
 body{
-    background-color: darkslategray;
+
+    background-color: rgba(32, 117, 120, .9);
 }
 
 h1{
     font-family:sans-serif;
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 44px;
+    color:black;
+    border-radius: 5px;
+    text-shadow: 2px 2px 6px gray;
 }
 
 hr{
-    border-color: gray;
+    border-color: rgba(3, 1, 1, 0.998);
+    border-width: 2px;
     height: 5px;
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    text-shadow: 2px 2px 5px gray;
+    color:rgba(15, 4, 4, .7);
+    margin-right: 0%;
+    
+}
+
+.hobbies{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    text-shadow: 2px 2px 5px gray;
+    color:rgba(15, 4, 4, .7);
+    margin-right: 4%;
+}
+
+ul{
+    list-style: numeric;
+    padding: 0%;
+    margin: 20px;
+}
+
+
+li{
+    font-size: 20px;
+    font-family: sans-serif;
+    color:rgba(225, 236, 229, .8);
+    text-shadow: 2px 2px 1px rgb(4, 0, 0);
     border-radius: 5px;
+    margin: 10px;
+    margin-left: 45%;
+    align-items: center;
+}   
+
+li:hover{
+    background: gray;
+    color: rgba(32, 117, 120, .5);
+    transform: scale(1.1);
+}
+
+.familyphoto{
+    margin-left:46%
 }
