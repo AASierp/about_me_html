@@ -6,3 +6,10 @@ h1{
     font-family:sans-serif;
     text-align: center;
 }
+
+hr{
+    border-color: gray;
+    height: 5px;
+    background-color: black;
+    border-radius: 5px;
+}
